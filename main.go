@@ -2,6 +2,7 @@ package main
 
 import("fmt"
        "log"
+       "os"
        "io/ioutil"
        "strings"
        "go.mongodb.org/mongo-driver/bson"
@@ -211,6 +212,15 @@ func newblog(w http.ResponseWriter, r *http.Request){
     }
     t.Execute(w,s)
 }
+func GetPort() string{
+var port = os.Getenv("PORT")
+ 	// Set a default port if there is nothing in the environment
+ 	if port == "" {
+		port = "8080"
+    fmt.Println("INFO: No PORT environment variable detected, defaulting to " + port)
+ 	} 	
+  return ":" + port
+}
 func requestHandler(){
   m := mux.NewRouter().StrictSlash(true)
   m.PathPrefix("/css/").Handler(http.StripPrefix("/css/",http.FileServer(http.Dir("css"))))
@@ -226,7 +236,7 @@ func requestHandler(){
   m.HandleFunc("/team",team)
   m.HandleFunc("/writeablog",writeblog).Methods("GET")
   m.HandleFunc("/writeablog",newblog).Methods("POST")
-  log.Fatal(http.ListenAndServe(":8080", m))
+  log.Fatal(http.ListenAndServe(GetPort(), m))
 }
 func main(){
   requestHandler()
