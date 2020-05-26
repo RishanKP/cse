@@ -226,7 +226,7 @@ func requestHandler(){
   m.HandleFunc("/team",team)
   m.HandleFunc("/writeablog",writeblog).Methods("GET")
   m.HandleFunc("/writeablog",newblog).Methods("POST")
-  log.Fatal(http.ListenAndServe(process.env.PORT || 5000,m))
+  log.Fatal(http.ListenAndServe(":8080", m))
 }
 func main(){
   requestHandler()
