@@ -1,0 +1,533 @@
+html{
+	background-color: black;
+	width: 100%;
+	height: auto;
+  overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*#constant{
+  height: auto;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  position: fixed;
+  top:0;
+  left:0;
+	z-index: 3;
+}
+#navbar ul{
+	padding: 0;
+	list-style:none;
+}
+#navbar li{
+	display: inline;
+	padding: 2%;
+}
+#navbar a{
+	text-decoration:none;
+	font-size: 100%;
+	color:white;
+}
+.button a{
+  text-decoration: none;
+  color:white;
+}
+h1{
+	color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: white;
+}
+#main{
+  width:35%;
+  float: left;
+  padding-left:10px;
+}
+#navbar{
+  width:55%;
+  float:right;
+  padding-top:15px;
+  padding-right: 10px;
+}*/
+
+#image{
+	padding: 0px;
+  padding-top: 80px;
+  width: 90%;
+  height: 70vh;
+}
+.container img{
+	opacity:0.5;
+}
+.container {
+	z-index: 2;
+  text-align: center;
+  color: black;
+}
+.container p{
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+
+.quote{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 0%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.button {
+    margin: 10%;
+    text-align: center;
+    opacity: 1;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.vis{
+  display: inline-block;
+}
+
+#vision img{
+	float: left;
+  width: 25%;
+  padding-left: 10%;
+  padding-top: 7%;
+  height: 200px;
+}
+#vsn {
+	margin-right: 10%;
+	width:50%;
+  float: right;
+  margin-top: 6.5%;
+}
+#mission img{
+	float: right;
+  width: 25%;
+  padding-right: 10%;
+  padding-top: 7%;
+  height: 200px;
+}
+#msn{
+	margin-left: 10%;
+	width:50%;
+  margin-top: 6.5%;
+}
+.vis h1{
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.vis p{
+  line-height: 30px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  margin-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  position: relative;
+  margin-top: 5%;
+}
+
+#mainHeader{
+  text-align: center;
+  padding-top: 10px;
+
+}
+#mainHeader h1{
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.block{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+
+}
+figure{
+  width: 20%;
+  margin: 0;
+  border: 1px solid #777;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+  color: #ffffff;
+}
+
+.btton {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding : 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px 2px;
+  border-radius: 12px;
+
+}
+
+.btton:hover{
+  background:#808080;
+  color:#FFFFFF;
+}
+
+
+.team{
+  background-color: black;
+  height:auto;
+  border-top: solid black 30px;
+}
+.team h1{
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  padding-top: 2%;
+}
+.team img{
+  border-radius: 50%;
+  height:36vh;
+  width:18vw;
+  border: solid coral 3px;
+}
+
+h3,h4{
+	font-size: 1.3vw;
+  color: white;
+  text-align:center;
+  margin: 0;
+}
+h4{
+	font-weight: lighter;
+}
+.buttonteam{
+  margin-left: 42%;
+}
+.team button{
+  background-color:coral;
+  height:40px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: solid coral 3px;
+  margin-top: 40px;
+}
+.team1,.team2,.team3 {
+	text-align: center;
+  float: left;
+  width: 20%;
+}
+.team3{
+  margin-left: 10%;
+}
+.team1{
+	margin-left: 11%;
+}
+.team2{
+  margin-left: 10%;
+}
+.txt1, .txt2 ,.txt3{
+  padding-right: 40px;
+	margin-left: 13%;
+}
+
+
+
+
+#contact{
+  width: 100%;
+  height: 85vh;
+  background-image: url(../images/contact1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact h1{
+  color:white;
+  font-size: 30px;
+}
+.heading{
+  margin-top: 130px;
+}
+.heading h1{
+  margin-left: 25px;
+  border-bottom: 4px solid white;
+  display: inline;
+  padding-bottom: 6px;
+}
+
+.contactdetails{
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 0;
+}
+.details ul{
+  list-style-type: none;
+
+}
+.details li{
+  display: inline;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.details a{
+  text-decoration: none;
+  color: white;
+}
+.details img{
+  border-radius: 50%;
+}
+.icons ul{
+  list-style-type: none;
+}
+.icons li{
+  text-decoration: none;
+  display: inline;
+  padding-left: 5px;
+}
+.icons img{
+  border-radius: 50%;
+}
+.form{
+  width: 40%;
+  float: right;
+  margin-right: 75px;
+  margin-top: 100px;
+}
+.form-grp{
+  overflow: hidden;
+  border-bottom: solid white 1.5px;
+}
+.my-form input, textarea{
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+.form{
+  width:40%;
+  float:right;
+}
+.contactdetails{
+  width:50%;
+  float:left;
+}
+
+.button input{
+  height: 35px;
+  width:150px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+.buttonteam a{
+  text-decoration: none;
+  color:black;
+}
+@media only screen and (max-width:600px) {
+  #image{
+    width:90%;
+		height: 200px;
+  }
+  .quote p{
+    font-size: 15px;
+  }
+  .btn-hover{
+    width: 150px;
+    height: 30px;
+    border-radius: 24px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .centered{
+    font-size: 15px;
+    top: 28%;
+  }
+  #vision img{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+  }
+  #vsn {
+		width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    font-size: 14px;
+  }
+  #mission img{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+  }
+  #msn{
+		width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-right: 10%;
+    font-size: 14px;
+  }
+	.header{
+		margin-top: 50%;
+	}
+  .block{
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+  }
+  figure{
+    width: 100%;
+    margin-right: 10%;
+		margin-top: 5%;
+    border: 1px solid #777;
+    padding: 20px;
+    background-color: #000000;
+  }
+  .btton{
+    margin-top: 10%;
+  }
+  .team{
+    border-top: solid black 1px;
+  }
+  .team1,.team2,.team3 {
+    text-align: center;
+    float: none;
+    width: 80%;
+    margin: 10%;
+  }
+  .txt1, .txt2 ,.txt3{
+    padding-right: 0px;
+  }
+  .team1{
+    margin-top: 0px;
+  }
+	h3,h4{
+		font-size: 15px;
+	  color: white;
+	  text-align:center;
+	  margin-right:10%;
+	}
+  .buttonteam{
+    margin-left: 24%;
+  }
+  .team button{
+	 margin-top: 0px;
+	 margin-bottom: 5%;
+  }
+  #contact{
+    height: 130vh;
+  }
+  .heading h1{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+
+  .contactdetails{
+    width: 100%;
+    float: none;
+  }
+  .details li{
+    font-size: 15px;
+  }
+  .details img{
+    border-radius: 50%;
+    width: 5%;
+    height: auto;
+  }
+  .form{
+    width:80%;
+    float:none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .contactdetails{
+    width:100%;
+    float:none;
+  }
+
+  .button input{
+    margin-left: 0px;
+  }
+	.block{
+		width:60%;
+	}
+	.team img{
+	  border-radius: 50%;
+	  height:140px;
+	  width:140px;
+	  border: solid coral 3px;
+	}
+	.team h1{
+		font-size: 35px;
+	}
+	.btton{
+		font-size: 15px;
+	}
+}

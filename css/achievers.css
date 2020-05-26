@@ -1,0 +1,274 @@
+* {box-sizing:border-box}
+html{
+	background-color: black;
+	width: 100%;
+	height: auto;
+  overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+#ach_menu{
+  background-color: grey;
+  color:white;
+  margin-top:8%;
+  margin-bottom: 6%;
+}
+.ach_menu{
+  font-size: 15px;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  padding-left: 10px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* my */
+.ach1, .ach2, .ach3{
+  background-color: white;
+  width: 98%;
+  height: 750px;
+  padding-top: 50px;
+}
+body{
+  background-color: black;
+  margin-top: 50px;
+
+}
+.para{
+  padding: 25px;
+  font-size:1.4vw;
+  width: 50%;
+  float:left;
+  padding-left: 45px;
+}
+.para p,.para2 p{
+	color:black;
+}
+.image{
+  float: right;
+	width:49%;
+  padding-right: 40px;
+	margin-top:5%;
+}
+.rimage{
+	height: 30vh;
+  width: 49%;
+  border-radius: 50%;
+  border:solid black 3px;
+}
+.ach_head{
+  color:black;
+  padding-left: 55px;
+  font-size: 3vw;
+  margin: 0;
+}
+.boximg{
+	margin-top:10%;
+	width: 90%;
+	height:40vh;
+	margin-left:5%;
+	border:solid black 3px;
+}
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.previous, .nextpage {
+  cursor: pointer;
+  position: absolute;
+  left: 4px;
+  margin-top: -18px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.previous{
+  top:0;
+}
+.nextpage {
+  bottom: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a blackbackground color with a little bit see-through */
+.previous:hover, .nextpage:hover {
+  background-color:rgb(0,0,0,0.8);
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* my */
+
+.ach-a, .ach-b, .ach-c {
+  background-color: white;
+  width: 700px;
+  height: 100vh;
+}
+.sem{
+  padding: 25px;
+  font-size:1.1vw;
+  width: 10%;
+  float:left;
+  background-color: coral;
+  padding-left: 30px;
+  height: 100vh;
+}
+.imageb{
+  float: right;
+  width: 90%;
+  padding-right: 40px;
+  padding-top: 10px;
+  background-color: #d0d0d0;
+  padding-left: 10px;
+  height:100vh;
+}
+.imageb p{
+	margin-top: 0;
+}
+.imageb img{
+  height: 30vh;
+  width: 15vw;
+  border-radius: 50%;
+  border: solid coral 2px;
+}
+.image1,.image2,.image3{
+	padding: 50px;
+}
+.sem h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+	float: left;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 3%;
+  text-align: center;
+}
+
+@media only screen and (max-width:600px){
+	#ach_menu{
+		margin-top:25%;
+	}
+	.ach_head{
+		font-size: 30px;
+	}
+
+	.para{
+		font-size: 12px;
+		padding-left: 25px;
+		width: 100%;
+	}
+	.image{
+		width:90%;
+		margin-right: 3%;
+	}
+	.rimage{
+			margin-left: 5%;
+			width:44%;
+			height:120px;
+	}
+	.boximg{
+		height:140px;
+		width:100%;
+	}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="/css/blog.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/menu.js"></script>
+<head>
+	<title>CSE ASSOCIATION</title>
+</head>
+<body>
+
+	<div class="home"><div class="constant" id="constant">
+			<header class="left" id="main">
+				<a href="/"><H1>CSE ASSOCIATION</H1></a>
+			</header>
+		<div class="top right">
+			<img id="menuicon" style="display:none;" class="hide hideimg" src="images/menu.png"/>
+	        <img id="menuicon2" style="display:none;" src="images/close.png"/>
+    	</div>
+
+		<nav class="show" id="navbar">
+				<ul>
+					<li><a href="/events">EVENTS</a></li>
+					<li><a href="/achievers">ACHIEVERS</a></li>
+					<li><a href="/project">PROJECTS</a></li>
+					<li><a href="/team">TEAM</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="/#contact">CONTACT US</a></li>
+				</ul>
+		</nav>
+		<div id="menu" style="display:none;">
+	        <a href="/events"><div id="options">EVENTS</div></a>
+	        <a href="/achievers"><div id="options">ACHIEVERS</div></a>
+	        <a href="/project"><div id="options">PROJECTS</div></a>
+	        <a href="/team"><div id="options">TEAM</div></a>
+        	<a href="#"><div id="options">BLOG</div></a>
+        	<a href="/#contact"><div id="options">CONTACT US</div></a>
+    	</div>
+	</div>
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    {{range .Todo}}
+  <div class="mySlides fade">
+    <div class="blog" style="width: 100%;">
+      <h1 id="blog-name">{{.Subject}}</h1>
+      <h3 id="blog-author">{{.Name}},{{.Sem}} CSE</h3>
+      <div class="para">
+      <p id="blog-content">{{.Content}}</p>
+      </div>
+    </div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  {{end}}
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!--<div style="text-align:center">
+  {{range .Todo}}
+  <span class="dot"></span>
+  {{end}}
+</div>-->
+<a href="writeablog"><div class="button">
+  <button  style="cursor:pointer;"><b>WRITE A BLOG</b></button>
+</div></a>
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

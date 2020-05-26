@@ -1,0 +1,79 @@
+html{
+	background-color: black;
+	width: 100%;
+	height: auto;
+  overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header{
+margin-top: 8%;
+font-size: 20px;
+text-align: center;
+}
+
+.block{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+figure{
+  width: 33%;
+  margin: 0;
+  border: 0 solid #777;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  border-radius: 50%;
+}
+figure img{
+  width: 80%;
+  border-radius: 50%;
+  border: 3px solid  #FF7F50;
+}
+figure figcaption{
+	width: 90%;
+	margin-right: 20%;
+	font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2vw;
+}
+.pos{
+	font-weight: 100;
+	font-size: 1.4vw;
+}
+@media only screen and (max-width:600px){
+	figure{
+		width: 85%;
+		margin-left: 10%;
+	}
+	figure figcaption{
+		font-size: 20px;
+	}
+	.pos{
+		font-size: 15px;
+	}
+	.header{
+		margin-top: 22%;
+		font-size: 15px;
+	}
+	body{
+		background-color: white;
+	}
+	figure{
+		background-color: white;
+	}
+	figure figcaption{
+		color:black;
+	}
+}
