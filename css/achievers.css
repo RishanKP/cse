@@ -120,8 +120,7 @@ body{
 	margin-top:5%;
 }
 .rimage{
-	height: 30vh;
-  width: 49%;
+  width: 45%;
   border-radius: 50%;
   border:solid black 3px;
 }
@@ -250,12 +249,13 @@ body{
 		margin-top:25%;
 	}
 	.ach_head{
-		font-size: 30px;
+		padding-left: 20px;
+		font-size: 25px;
 	}
 
 	.para{
-		font-size: 12px;
-		padding-left: 25px;
+		font-size: 13px;
+		padding-left: 35px;
 		width: 100%;
 	}
 	.image{
@@ -265,10 +265,10 @@ body{
 	.rimage{
 			margin-left: 5%;
 			width:44%;
-			height:120px;
+			height:140px;
 	}
 	.boximg{
-		height:140px;
+		height:180px;
 		width:100%;
 	}
 }
