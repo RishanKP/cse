@@ -44,6 +44,15 @@ func getpdf(test string) []*activity{
   }
   return data
 }
+func Getmongo() string{
+  var url = os.Getenv("MONGODB_URI")
+
+  if(url == ""){
+    url = "mongodb://localhost:27017"
+  }
+
+  return url
+}
 func home(w http.ResponseWriter, r *http.Request){
   t,err := template.ParseFiles("index.html")
 
@@ -54,7 +63,8 @@ func home(w http.ResponseWriter, r *http.Request){
 }
 func blog(w http.ResponseWriter, r *http.Request){
 
-  clientOptions :=options.Client().ApplyURI(os.Getenv("MONGODB_URI"))
+  url := Getmongo()
+  clientOptions :=options.Client().ApplyURI(url)
   client,err :=mongo.Connect(context.TODO(),clientOptions)
   if err!=nil{
     log.Fatal(err)
@@ -169,8 +179,9 @@ func newblog(w http.ResponseWriter, r *http.Request){
       }{
         Uploaded:false,
       }
+      url := Getmongo()
       //"mongodb://localhost:27017"
-    clientOptions := options.Client().ApplyURI(os.Getenv("MONGODB_URI"))
+    clientOptions := options.Client().ApplyURI(url)
     client,err := mongo.Connect(context.TODO(),clientOptions)
 
     if err!=nil{
