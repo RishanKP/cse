@@ -54,7 +54,7 @@ func home(w http.ResponseWriter, r *http.Request){
 }
 func blog(w http.ResponseWriter, r *http.Request){
 
-  clientOptions :=options.Client().ApplyURI("mongodb://heroku_13ttclk5:ul720o1p62ls39uir8d2vitbn5@ds149258.mlab.com:49258/heroku_13ttclk5")
+  clientOptions :=options.Client().ApplyURI("mongodb+srv://rishan11:11626hangout@@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
   client,err :=mongo.Connect(context.TODO(),clientOptions)
   if err!=nil{
     log.Fatal(err)
@@ -64,7 +64,7 @@ func blog(w http.ResponseWriter, r *http.Request){
   if err!=nil{
     log.Fatal(err)
   }
-  collection := client.Database("heroku_13ttclk5").Collection("blogs")
+  collection := client.Database("cse").Collection("blogs")
   fmt.Println("connected to mongodb")
 
   var blogs []*Blog
@@ -170,7 +170,7 @@ func newblog(w http.ResponseWriter, r *http.Request){
         Uploaded:false,
       }
       //"mongodb://localhost:27017"
-    clientOptions := options.Client().ApplyURI("mongodb://heroku_13ttclk5:ul720o1p62ls39uir8d2vitbn5@ds149258.mlab.com:49258/heroku_13ttclk5")
+    clientOptions := options.Client().ApplyURI("mongodb+srv://rishan11:11626hangout@@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
     client,err := mongo.Connect(context.TODO(),clientOptions)
 
     if err!=nil{
@@ -183,7 +183,7 @@ func newblog(w http.ResponseWriter, r *http.Request){
       log.Fatal(err)
     }
 
-    collection := client.Database("heroku_13ttclk5").Collection("blogs")
+    collection := client.Database("cse").Collection("blogs")
     fmt.Println("connected to mongodb")
 
     r.ParseForm()
