@@ -54,7 +54,7 @@ func home(w http.ResponseWriter, r *http.Request){
 }
 func blog(w http.ResponseWriter, r *http.Request){
 
-  clientOptions :=options.Client().ApplyURI("mongodb+srv://rishan11:11626hangout@@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
+  clientOptions :=options.Client().ApplyURI("mongodb://heroku_13ttclk5:ul720o1p62ls39uir8d2vitbn5@ds149258.mlab.com:49258/heroku_13ttclk5")
   client,err :=mongo.Connect(context.TODO(),clientOptions)
   if err!=nil{
     log.Fatal(err)
@@ -170,7 +170,7 @@ func newblog(w http.ResponseWriter, r *http.Request){
         Uploaded:false,
       }
       //"mongodb://localhost:27017"
-    clientOptions := options.Client().ApplyURI("mongodb+srv://rishan11:<password>@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
+    clientOptions := options.Client().ApplyURI("mongodb://heroku_13ttclk5:ul720o1p62ls39uir8d2vitbn5@ds149258.mlab.com:49258/heroku_13ttclk5")
     client,err := mongo.Connect(context.TODO(),clientOptions)
 
     if err!=nil{
