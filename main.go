@@ -54,7 +54,7 @@ func home(w http.ResponseWriter, r *http.Request){
 }
 func blog(w http.ResponseWriter, r *http.Request){
 
-  clientOptions :=options.Client().ApplyURI("mongodb://localhost:27017")
+  clientOptions :=options.Client().ApplyURI("mongodb+srv://rishan11:11626hangout@@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
   client,err :=mongo.Connect(context.TODO(),clientOptions)
   if err!=nil{
     log.Fatal(err)
@@ -169,7 +169,8 @@ func newblog(w http.ResponseWriter, r *http.Request){
       }{
         Uploaded:false,
       }
-    clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
+      //"mongodb://localhost:27017"
+    clientOptions := options.Client().ApplyURI("mongodb+srv://rishan11:<password>@cse-gcek-6pipf.gcp.mongodb.net/test?retryWrites=true&w=majority")
     client,err := mongo.Connect(context.TODO(),clientOptions)
 
     if err!=nil{
@@ -218,7 +219,7 @@ var port = os.Getenv("PORT")
  	if port == "" {
 		port = "8080"
     fmt.Println("INFO: No PORT environment variable detected, defaulting to " + port)
- 	} 	
+ 	}
   return ":" + port
 }
 func requestHandler(){
