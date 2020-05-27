@@ -64,7 +64,7 @@ func blog(w http.ResponseWriter, r *http.Request){
   if err!=nil{
     log.Fatal(err)
   }
-  collection := client.Database("cse").Collection("blogs")
+  collection := client.Database("heroku_13ttclk5").Collection("blogs")
   fmt.Println("connected to mongodb")
 
   var blogs []*Blog
@@ -183,7 +183,7 @@ func newblog(w http.ResponseWriter, r *http.Request){
       log.Fatal(err)
     }
 
-    collection := client.Database("cse").Collection("blogs")
+    collection := client.Database("heroku_13ttclk5").Collection("blogs")
     fmt.Println("connected to mongodb")
 
     r.ParseForm()
