@@ -1,6 +1,6 @@
 
-47.	SHAHANA MUSTHAFA
-Big Data Classification and Security for Improving Cloud Systems Data Mobility
-Abstract
+SHAHANA MUSTHAFA
+
+Abstract:
 
 	The expand trend of cloud data mobility led to malicious data threats that necessitate using data protection techniques. Most cloud system applications contain valuable and conﬁdential data, such as; personal, trade or health information. Threats on such data may put the cloud systems that hold these data at high risk. However, the traditional security solutions are not capable of handling the security of big data mobility. The current security mechanisms are insufficient for big data due to their shortage of determining the data that should be protected or due to their intractable time complexity. Therefore, the demand on securing mobile big data has been increasing rapidly to avoid any potential risks. This paper proposes an integrated methodology to classify and secure big data before executing data mobility, duplication and analysis. The necessity of securing big data mobility is determined by classifying the data according to the risk impact level of their contents into two categories; conﬁdential and public. Based on the classiﬁcation category, the impact of data security is studied and substantiated on the conﬁdential data in the scope of Hadoop Distributed File System. It is revealed that the proposed approach can signiﬁcantly improve the cloud systems data mobility.

@@ -1,25 +1,3 @@
+SURABHI C
 
-53.	SURABHI C
-Deer Crossing Road Detection Using
-Roadside LiDAR Sensor
-Abstract: Deer crossing roads are a major concern of highway
-safety in rural and suburban areas in the United States. This paper
-provided an innovative approach to detecting deer crossing at
-highways using 3D light detection and ranging (LiDAR) technology.
-The developed LiDAR data processing procedure includes
-background filtering, object clustering, and object classification. An
-automatic background filtering method based on the point
-distribution was applied to exclude background but keep the deer
-(and road users if they exist) in the space. A modified density-
-based spatial clustering of applications with noise (DBSCAN)
-algorithm was used for object clustering. Adaptive searching
-parameters were applied in the vertical and horizontal directions to
-cluster the points. The cluster groups were further classified into
-three groups - deer, pedestrians, and vehicles, using three different
-algorithms: naive Bayes, random forest, and k-nearest neighbour.
-The testing results showed that the random forest (RF) can provide
-the highest accuracy for classification among the three algorithms.
-The results of the field test showed that the developed method can
-detect the deer with an average distance of 30 m far away from the
-LiDAR. The deer crossing information can warn drivers about the
-risks of deer-vehicle crashes in real time
+Abstract: Deer crossing roads are a major concern of highwaysafety in rural and suburban areas in the United States. This paperprovided an innovative approach to detecting deer crossing athighways using 3D light detection and ranging (LiDAR) technology.The developed LiDAR data processing procedure includesbackground filtering, object clustering, and object classification. Anautomatic background filtering method based on the pointdistribution was applied to exclude background but keep the deer(and road users if they exist) in the space. A modified density-based spatial clustering of applications with noise (DBSCAN)algorithm was used for object clustering. Adaptive searchingparameters were applied in the vertical and horizontal directions tocluster the points. The cluster groups were further classified intothree groups - deer, pedestrians, and vehicles, using three differentalgorithms: naive Bayes, random forest, and k-nearest neighbour.The testing results showed that the random forest (RF) can providethe highest accuracy for classification among the three algorithms.The results of the field test showed that the developed method candetect the deer with an average distance of 30 m far away from theLiDAR. The deer crossing information can warn drivers about therisks of deer-vehicle crashes in real time

@@ -1,18 +1,5 @@
 
-19.	ATHIRA P
-Scalar Daily Human Behavioral Pattern Mining
-Using Multivariate Temporal Data
-Abstract
-This work introduces a set of scalable algorithms to identify patterns of human daily
-behaviors. These patterns are extracted from multivariate temporal data that have been
-collected from smartphones. We have exploited sensors that are available on these devices,
-and have identified frequent behavioral patterns with a temporal granularity, which has been
-inspired by the way individuals segment time into events. These patterns are helpful to both
-end-users and third parties who provide services based on this information. We have
-demonstrated our approach on two real-world datasets and showed that our pattern
-identification algorithms are scalable. This scalability makes analysis on resource constrained
-and small devices such as smartwatches feasible. Traditional data analysis systems are
-usually operated in a remote system outside the device. This is largely due to the lack of
-scalability originating from software and hardware restrictions of mobile/wearable devices.
-By analyzing the data on the device, the user has the control over the data, i.e., privacy, and
-the network costs will also be removed.
+ATHIRA P
+
+Abstract:
+This work introduces a set of scalable algorithms to identify patterns of human dailybehaviors. These patterns are extracted from multivariate temporal data that have beencollected from smartphones. We have exploited sensors that are available on these devices,and have identified frequent behavioral patterns with a temporal granularity, which has beeninspired by the way individuals segment time into events. These patterns are helpful to bothend-users and third parties who provide services based on this information. We havedemonstrated our approach on two real-world datasets and showed that our patternidentification algorithms are scalable. This scalability makes analysis on resource constrainedand small devices such as smartwatches feasible. Traditional data analysis systems areusually operated in a remote system outside the device. This is largely due to the lack ofscalability originating from software and hardware restrictions of mobile/wearable devices.By analyzing the data on the device, the user has the control over the data, i.e., privacy, andthe network costs will also be removed.

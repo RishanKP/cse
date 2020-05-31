@@ -1,15 +1,6 @@
 
-14.	ARFAD KALLIL
-Secure IoT using Cloud
-Abstract
+ARFAD KALLIL
 
-In an IoT system the level of risking our data depends on to which extent we consume the
-service provided by that system. Putting trust in a system, where the serving entity and served
-entity is often unknown is a hard decision. Furthermore, interoperability and scalability of
-billions of heterogeneous devices in an IoT system requires special attention. ARCA-IoT is a
-system which identifies the attributes essential for trust and also presents a user-centric model
-that is robust enough to tackle the attacks made by dishonest entities to manipulate the
-trustworthiness. For scalability and interoperability, a cloud-assisted environment is
-introduced in the ARCA-IoT. An intuitive Naive Bayes approach is used to train the ARCA-
-IoT in a way that it calculates the probabilities of the trustworthiness of the entities and then
-identifies various types of attacks with the support of three proposed algorithms.
+Abstract:
+
+In an IoT system the level of risking our data depends on to which extent we consume theservice provided by that system. Putting trust in a system, where the serving entity and servedentity is often unknown is a hard decision. Furthermore, interoperability and scalability ofbillions of heterogeneous devices in an IoT system requires special attention. ARCA-IoT is asystem which identifies the attributes essential for trust and also presents a user-centric modelthat is robust enough to tackle the attacks made by dishonest entities to manipulate thetrustworthiness. For scalability and interoperability, a cloud-assisted environment isintroduced in the ARCA-IoT. An intuitive Naive Bayes approach is used to train the ARCA-IoT in a way that it calculates the probabilities of the trustworthiness of the entities and thenidentifies various types of attacks with the support of three proposed algorithms.

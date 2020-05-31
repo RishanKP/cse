@@ -1,19 +1,5 @@
 
-37.	MOHAMMED SHIHAS P K
-DETECTION METHOD FOR
-SPOOFED IP AGAINST
-DDOS ATTACKS
-Abstract
-Cybercriminals are learning to harness the power of simpler devices like con-
-nected cameras. In September of 2016, Mirai software was used to infect
-more than 100,000 devices and unleash one of the largest distributed denial-
-of-service (DDoS) attacks up to that time. After this incident, many people
-identified multiple large attacks coming from Internet of Things (IoT) devices,
-like CCTV cameras, and described these attacks as a new trend. A technique
-to detect whether a signal source is counterfeited in the initial stage of a DDoS
-attack is important. This paper proposes a method for the quick detection of a
-spoofed Internet protocol (IP) during a DDoS attack based on a DDoS shelter
-that is established to defend against DDoS attacks. In order to achieve this
-goal, the proposed method evaluate the number of time-to-live hops in normal
-traffic as a reference for the bandwidth of each network that is accessible to
-the DDoS shelter
+MOHAMMED SHIHAS P K
+
+Abstract:
+Cybercriminals are learning to harness the power of simpler devices like connected cameras. In September of 2016, Mirai software was used to infectmore than 100,000 devices and unleash one of the largest distributed denial-of-service (DDoS) attacks up to that time. After this incident, many peopleidentified multiple large attacks coming from Internet of Things (IoT) devices,like CCTV cameras, and described these attacks as a new trend. A techniqueto detect whether a signal source is counterfeited in the initial stage of a DDoSattack is important. This paper proposes a method for the quick detection of aspoofed Internet protocol (IP) during a DDoS attack based on a DDoS shelterthat is established to defend against DDoS attacks. In order to achieve thisgoal, the proposed method evaluate the number of time-to-live hops in normaltraffic as a reference for the bandwidth of each network that is accessible tothe DDoS shelter

@@ -1,15 +1,4 @@
+PARVATHI K
 
-41.	PARVATHI K
-Using Machine Learning to Detect Fake Identities: Bots vs Humans
 ABSTRACT:
-There is a growing number of people who hold accounts on social media plat-forms (SMPs)
-but hide their identity for malicious purposes. Unfortunately, very little research has been
-done to date to detect fake identities created by humans, especially so on SMPs. In contrast,
-many examples exist of cases where fake accounts created by bots or computers have been
-detected success-fully using machine learning models. In the case of bots these machine
-learning models were dependent on employing engineered features such as the ’friend-to-
-followers ratio’. These features were engineered from attributes, such as ’friend-count’ and
-’follower-count’, which are directly available in the account profiles on SMPs. The methods
-discussed in this seminar applies these same engineered features to a set of fake human
-accounts in the hope of advancing the successful detection of fake identities created by
-humans on SMPs.
+There is a growing number of people who hold accounts on social media plat-forms (SMPs)but hide their identity for malicious purposes. Unfortunately, very little research has beendone to date to detect fake identities created by humans, especially so on SMPs. In contrast,many examples exist of cases where fake accounts created by bots or computers have beendetected success-fully using machine learning models. In the case of bots these machinelearning models were dependent on employing engineered features such as the ’friend-to-followers ratio’. These features were engineered from attributes, such as ’friend-count’ and’follower-count’, which are directly available in the account profiles on SMPs. The methodsdiscussed in this seminar applies these same engineered features to a set of fake humanaccounts in the hope of advancing the successful detection of fake identities created byhumans on SMPs.

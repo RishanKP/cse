@@ -1,6 +1,7 @@
 
-24.	DIPIN M
-EnrichingTriangleMeshAnimationswithPhysicallyBasedSimulation
+DIPIN M
+
+Abstract:
 Thisisasystem tocombinearbitrarytrianglemeshanimationswithphysicallybasedFinite
 ElementMethod(FEM)simulation,enabling
 controloverthecombinationbothinspaceandtime.Theinputisatrianglemeshanimation

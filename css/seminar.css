@@ -13,6 +13,7 @@ html{
 	margin:1%;
 	color:rgb(53,172,238);
 	cursor:pointer;
+	 transition: height 20s;
 }
 #link{
 	color:blue;
@@ -53,7 +54,6 @@ html{
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}

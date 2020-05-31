@@ -1,19 +1,4 @@
-5.	AMAL K
-DATA COMPRESSION DEVICE BASED ON MODIFIED LZ4 ALGORITHM
+AMAL K
+
 Abstract:
-Data compression is commonly used in NAND flash-based Solid State Drives
-(SSDs) to increase their storage performance and lifetime as it can reduce the amount
-of data written to and read from NAND flash memory. Software based data
-compression reduces SSD performance significantly and, as such, hardware-based
-data compression designs are required.
-This paper studies the latest lossless data compression algorithm, i.e., the LZ4
-algorithm which is one of the fastest compression algorithms reported to date. A data
-compression FPGA prototype based on the LZ4 lossless compression algorithm is
-studied. The original LZ4 compression algorithm is modified for real-time hardware
-implementation. Two hardware architectures of the modified LZ4 algorithm (MLZ4)
-are proposed with both compressors and de-compressors, which are implemented on a
-FPGA evaluation kit. The implementation results show that the proposed compressor
-architecture can achieve a high throughput of up to 1.92Gbps with a compression ratio
-of up to 2.05, which is higher than all previous LZ algorithm designs implemented on
-FPGAs. The compression device can be used in high-end SSDs to further increase
-their storage performance and lifetime.
+Data compression is commonly used in NAND flash-based Solid State Drives(SSDs) to increase their storage performance and lifetime as it can reduce the amountof data written to and read from NAND flash memory. Software based datacompression reduces SSD performance significantly and, as such, hardware-baseddata compression designs are required.This paper studies the latest lossless data compression algorithm, i.e., the LZ4algorithm which is one of the fastest compression algorithms reported to date. A datacompression FPGA prototype based on the LZ4 lossless compression algorithm isstudied. The original LZ4 compression algorithm is modified for real-time hardwareimplementation. Two hardware architectures of the modified LZ4 algorithm (MLZ4)are proposed with both compressors and de-compressors, which are implemented on aFPGA evaluation kit. The implementation results show that the proposed compressorarchitecture can achieve a high throughput of up to 1.92Gbps with a compression ratioof up to 2.05, which is higher than all previous LZ algorithm designs implemented onFPGAs. The compression device can be used in high-end SSDs to further increasetheir storage performance and lifetime.

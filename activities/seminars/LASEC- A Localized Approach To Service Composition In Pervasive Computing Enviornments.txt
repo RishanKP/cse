@@ -1,25 +1,5 @@
 
-18.	ASHIN SURESH THOMAS
-LASEC: A Localized Approach To
-Service Composition In Pervasive
-Computing Enviornments
-Abstract
-Pervasive computing environments (PvCE) are embedded with interconnected
-smart devices which provide users with services desired. As the service compo-
-sition environment may be dynamic and large scale, centralized service com-
-position algorithm is usually inefficient due to message cost.In this localized
-service composition algorithm (LASEC), UIOs collaborate with each other in
-a bottom-up, localized manner to compose required service without requiring
-global knowledge.
-The proposed localized service composition algorithm (LASEC) in the given
-paper, UIOs collaborate with each other in a bottom-up, localized manner
-to compose required service without requiring global knowledge. To solve the
-problem of blind compositions in LASEC, we propose a novel mechanism called
-Alien-information-based Acknowledging (A-Ack), in which a UIO decides on
-collaborating with another UIO only after obtaining some additional infor-
-mation from the collaboration candidate. Specifically,this information refers
-to ability of a given UIO to compose another part of the service. Proposed
-LASEC is message-efficient and quality-guaranteed. Extensive simulations of
-LASEC as well as existing decentralized and pull-based centralized algorithms
-have been conducted. The results show the relatively low communication cost
-and composition time of LASEC.
+ASHIN SURESH THOMAS
+
+Abstract:
+Pervasive computing environments (PvCE) are embedded with interconnectedsmart devices which provide users with services desired. As the service compo-sition environment may be dynamic and large scale, centralized service com-position algorithm is usually inefficient due to message cost.In this localizedservice composition algorithm (LASEC), UIOs collaborate with each other ina bottom-up, localized manner to compose required service without requiringglobal knowledge.The proposed localized service composition algorithm (LASEC) in the givenpaper, UIOs collaborate with each other in a bottom-up, localized mannerto compose required service without requiring global knowledge. To solve theproblem of blind compositions in LASEC, we propose a novel mechanism calledAlien-information-based Acknowledging (A-Ack), in which a UIO decides oncollaborating with another UIO only after obtaining some additional infor-mation from the collaboration candidate. Specifically,this information refersto ability of a given UIO to compose another part of the service. ProposedLASEC is message-efficient and quality-guaranteed. Extensive simulations ofLASEC as well as existing decentralized and pull-based centralized algorithmshave been conducted. The results show the relatively low communication costand composition time of LASEC.

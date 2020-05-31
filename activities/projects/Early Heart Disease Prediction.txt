@@ -3,8 +3,8 @@ KNR16CS012 ANWAYA S K
 KNR16CS043 NITHUNA A N
 KNR16CS056 SRUTHY PRAKASH
 
-Cardiovascular disease is one of the leading death causes in the world, which
-accounts for more than 30% of global death. Early detection of abnormal cardiac problems through constant monitoring of electro cardio gram signals can prevent sudden cardiac death by advising patients to take preventive actions before severe heart conditions.However, current technologies suffer from two important drawbacks:
+Cardiovascular disease is one of the leading death causes in the world,which
+accounts for more than 30% of global death.Early detection of abnormal cardiac problems through constant monitoring of electro cardio gram signals can prevent sudden cardiac death by advising patients to take preventive actions before severe heart conditions.However, current technologies suffer from two important drawbacks:
 i) The lack of prediction capacity to predict heart abnormalities ahead of time,
 ii) Failure in capturing inter-patient variability.
 The common spirit of current methods is processing a large dataset of annotated ECG signals and constructing reference models that facilitate evaluating test signals. However, the predictive modeling of abnormal heartbeats has not been fully addressed yet. It has been shown that certain features of ECG signals can reflect underlying cardiac abnormalities

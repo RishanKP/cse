@@ -1,22 +1,5 @@
 
-44.	RAHUL MOHANAN A K
-Reportcoin: A Novel Blockchain-Based Incentive
-Anonymous Reporting System
-Abstract
-In our current age and society, sending messages is an extremely simple and an
-important part of our lives. This is often used in city management. But, only a few people are
-willing to reflect or report some violations of law and discipline around them, and more
-people choose to ignore. There are two major reasons for this. First, reporting with a real
-name is recommended. But it is difficult to send trusted and reliable information without
-revealing the sender’s identity. Second, no benefit. People usually lack the motivation to
-report crimes in fear of retaliation. For example, reporting a drug dealer may cause harm for
-the reporter’s self or family. In this, an effective and efficient reporting system called
-Reportcoin, a novel blockchain-based incentive anonymous reporting system. ReportCoin
-guarantees user identity privacy and reporting message reliability throughout the reporting
-process. On the one hand, ReportCoin allows nondeterministic mobile users to vote the
-reporting by signing and to send anonymous announcements in the non-fully trusted network.
-On the other hand, ReportCoin motivates users with incentives to report without worrying
-about the disclosure of identity information to be retaliated. Meanwhile, account information
-and transaction records in ReportCoin are open, transparent, and tamper resistant. The
-theoretical analysis and extensive experimental results show that ReportCoin is efficient and
-practical
+RAHUL MOHANAN A K
+
+Abstract:
+In our current age and society, sending messages is an extremely simple and animportant part of our lives. This is often used in city management. But, only a few people arewilling to reflect or report some violations of law and discipline around them, and morepeople choose to ignore. There are two major reasons for this. First, reporting with a realname is recommended. But it is difficult to send trusted and reliable information withoutrevealing the sender’s identity. Second, no benefit. People usually lack the motivation toreport crimes in fear of retaliation. For example, reporting a drug dealer may cause harm forthe reporter’s self or family. In this, an effective and efficient reporting system calledReportcoin, a novel blockchain-based incentive anonymous reporting system. ReportCoinguarantees user identity privacy and reporting message reliability throughout the reportingprocess. On the one hand, ReportCoin allows nondeterministic mobile users to vote thereporting by signing and to send anonymous announcements in the non-fully trusted network.On the other hand, ReportCoin motivates users with incentives to report without worryingabout the disclosure of identity information to be retaliated. Meanwhile, account informationand transaction records in ReportCoin are open, transparent, and tamper resistant. Thetheoretical analysis and extensive experimental results show that ReportCoin is efficient andpractical

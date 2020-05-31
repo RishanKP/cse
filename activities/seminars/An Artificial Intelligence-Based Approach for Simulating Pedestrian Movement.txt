@@ -1,23 +1,5 @@
 
-58.	AMAYA RAMESHBABU
-An Artificial Intelligence-Based Approach for Simulating Pedestrian
-Movement
+AMAYA RAMESHBABU
+
 Abstract:
-This paper proposes a novel approach for simulating pedestrian movement behavior
-based on artificial intelligence technology. Within this approach, a large volume of
-microscopic pedestrian movement behavior types were collected and encapsulated
-into an artificial neural network via network training. The trained network was then
-fed back into a simulation environment to predict the pedestrian movement. Two
-simulation experiments were conducted to evaluate the performance of the approach.
-First, a pedestrian-collision-avoidance test was conducted, and the results showed
-that virtual pedestrians with learned pedestrian behavior can move reasonably to
-avoid potential collisions with other pedestrians. In addition, a critical parameter, i.e.,
-defined as “reacting distance” and determined to be 2.5 m, represented the boundary
-of the collision buffer zone. Second, a pedestrian counterflow in a road-crossing
-situation was simulated, and the results were compared with the real-life scenario.
-The comparison revealed that the pedestrian distributions, erratic trajectories, and
-density–speed fundamental diagram in the simulation are reasonably consistent with
-the real-life scenario. Furthermore, a quantitative indicator, i.e., the relative distance
-error, was calculated to evaluate the simulation error of pedestrians’ trajectories
-between the simulation and the real-life scenario.We considered the proposed
-approach to be capable of simulating human-like microscopic pedestrian flow.
+This paper proposes a novel approach for simulating pedestrian movement behaviorbased on artificial intelligence technology. Within this approach, a large volume ofmicroscopic pedestrian movement behavior types were collected and encapsulatedinto an artificial neural network via network training. The trained network was thenfed back into a simulation environment to predict the pedestrian movement. Twosimulation experiments were conducted to evaluate the performance of the approach.First, a pedestrian-collision-avoidance test was conducted, and the results showedthat virtual pedestrians with learned pedestrian behavior can move reasonably toavoid potential collisions with other pedestrians. In addition, a critical parameter, i.e.,defined as “reacting distance” and determined to be 2.5 m, represented the boundaryof the collision buffer zone. Second, a pedestrian counterflow in a road-crossingsituation was simulated, and the results were compared with the real-life scenario.The comparison revealed that the pedestrian distributions, erratic trajectories, anddensity–speed fundamental diagram in the simulation are reasonably consistent withthe real-life scenario. Furthermore, a quantitative indicator, i.e., the relative distanceerror, was calculated to evaluate the simulation error of pedestrians’ trajectoriesbetween the simulation and the real-life scenario.We considered the proposedapproach to be capable of simulating human-like microscopic pedestrian flow.

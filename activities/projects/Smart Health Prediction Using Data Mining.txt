@@ -1,18 +1,8 @@
-The healthcare industry collects huge amounts of healthcare data which,
-unfortunately, are not "mined" to discover hidden information for
-effective decision making. Data mining has been a current trend for
-attaining diagnostic results. Huge amount of unmined data is collected
-by the healthcare industry in order to discover hidden information for
-effective diagnosis and decision making. Data mining is the process of
-extracting hidden information from massive dataset, categorizing valid
-and unique patterns in data. Researchers all over the world are working
-in either multi agents or in ontologies for developing system in health
-care domain. It might have happened so many times that you or
-someone need doctor help but they are not available due to some
-reason. The health management system is an end user support and
-online consultation project. Here we propose a system that allows users
-to get guidance on their health issues through an intelligent health care
-online system. The objective of our paper is to predict disease using
-clustering technique, K-means algorithm. The patient symptoms is
-collected from the user to predict various disease by using data mining
-techniques.
+
+The healthcare industry collects huge amounts of healthcare data which, unfortunately, are not "mined" to discover hidden information for
+effective decision making. Data mining has been a current trend for attaining diagnostic results. Huge amount of unmined data is collected
+by the healthcare industry in order to discover hidden information for effective diagnosis and decision making. Data mining is the process of extracting hidden information from massive dataset, categorizing valid and unique patterns in data. Researchers all over the world are working
+in either multi agents or in ontologies for developing system in health care domain. It might have happened so many times that you or
+someone need doctor help but they are not available due to some reason. The health management system is an end user support and online consultation project. Here we propose a system that allows users to get guidance on their health issues through an intelligent health care
+online system. The objective of our paper is to predict disease using clustering technique, K-means algorithm. The patient symptoms is
+collected from the user to predict various disease by using data mining techniques.

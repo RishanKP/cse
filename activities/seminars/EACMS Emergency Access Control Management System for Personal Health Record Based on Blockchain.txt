@@ -1,21 +1,5 @@
 
-43.	PRANAV T N
-EACMS: Emergency Access Control Management
-System for Personal Health Record
-Based on Blockchain
-Abstract
-Personal health records (PHRs) are private and vital assets for every patient. There
-have been introduced many works on various aspects of managing and organizing the PHR so
-far. However, there is an uncertain remaining issue for the role of PHR in emergencies. In a
-traditional emergency access system, the patient cannot give consent to emergency staff for
-accessing his/her PHR. Moreover, there is no secured record management of patient’s PHR,
-which reveals highly confidential personal information, such as what happened, when, and
-who has access to such information. This paper proposes an emergency access control
-management system (EACMS) based on permissioned blockchain hyperledger fabric and
-hyperledger composer. In the proposed system, we defined some rules using the smart
-contracts for emergency condition and time duration for the emergency access PHR data
-items that patient can assign some limitations for controlling the PHR permissions.
-analyzed the performance of our proposed framework by implementing through the
-hyperledger composer based on the response time, privacy, security, and accessibility. The
-experiments confirm that our framework provides better efficiency compared with the
-traditional emergency access system.
+PRANAV T N
+
+Abstract:
+Personal health records (PHRs) are private and vital assets for every patient. Therehave been introduced many works on various aspects of managing and organizing the PHR sofar. However, there is an uncertain remaining issue for the role of PHR in emergencies. In atraditional emergency access system, the patient cannot give consent to emergency staff foraccessing his/her PHR. Moreover, there is no secured record management of patient’s PHR,which reveals highly confidential personal information, such as what happened, when, andwho has access to such information. This paper proposes an emergency access controlmanagement system (EACMS) based on permissioned blockchain hyperledger fabric andhyperledger composer. In the proposed system, we defined some rules using the smartcontracts for emergency condition and time duration for the emergency access PHR dataitems that patient can assign some limitations for controlling the PHR permissions.analyzed the performance of our proposed framework by implementing through thehyperledger composer based on the response time, privacy, security, and accessibility. Theexperiments confirm that our framework provides better efficiency compared with thetraditional emergency access system.

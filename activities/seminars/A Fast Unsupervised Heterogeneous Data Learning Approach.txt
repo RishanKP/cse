@@ -1,18 +1,6 @@
 
-60.	ASWIN A
-A FAST UNSUPERVISED HETEROGENEOUS DATA LEARNING APPROACH
-Abstract
+ASWIN A
 
-Advanced unsupervised learning techniques are emergency yet challenge in the big
-data era due to the increasing requirements of extracting knowledge from a large amount of
-unlabeled heterogeneous data. Recently, many efforts of unsupervised learning have been
-done to effectively capture information from heterogeneous data. However, most of them are
-with huge time consumption, which obstructs their further application in the big data
+Abstract:
 
-analytics scenarios where an enormous amount of heterogeneous data are provided but real-
-time learning are strongly demanded. Hear this problem is solved by proposing a fast
-
-unsupervised heterogeneous data learning algorithm, namely two-stage unsupervised multiple
-kernel extreme learning machine (TUMK-ELM). This approach alternatively extracts
-information from multiple sources and learns the heterogeneous data representation with
-closed-form solutions, which enables its extremely fast speed.
+Advanced unsupervised learning techniques are emergency yet challenge in the big data era due to the increasing requirements of extracting knowledge from a large amount of unlabeled heterogeneous data. Recently, many efforts of unsupervised learning have been done to effectively capture information from heterogeneous data. However, most of them are with huge time consumption, which obstructs their further application in the big data analytics scenarios where an enormous amount of heterogeneous data are provided but real- time learning are strongly demanded. Hear this problem is solved by proposing a fast unsupervised heterogeneous data learning algorithm, namely two-stage unsupervised multiple kernel extreme learning machine (TUMK-ELM). This approach alternatively extracts information from multiple sources and learns the heterogeneous data representation with closed-form solutions, which enables its extremely fast speed.

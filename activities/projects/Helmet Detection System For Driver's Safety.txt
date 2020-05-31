@@ -4,22 +4,5 @@ Likhit N Krishnan
 Amaya Rameshbabu
 Shobitha Sasidharan
 
-According to transport ministry, in 2016 about 28 two wheeler riders died
-daily because of not wearing helmet. In 2017, 31 out of 100 people died in
-road accidents which shows increased rate from 21.6death per 100
-accidents in 2005. Each year there are 1.4 million Traumatic Brain Injuries
-(TBI’s) in INDIA. About $76.5 billion dollars is spent in treatment related
-to these injuries. More than 50,000 individuals die from TBI. This
-proposal aims at the security and safety of motorcyclists against road
-accidents while also providing them with luxurious comfortable two
-wheeler experience. Once installed this system will provide a completely
-free of cost solution .An overall software cost is equal to zero as the
-software is built using free and open source technologies. Hence given that
-every rider not wearing helmet is prosecuted, there will be an increased
-awareness in public.
-The developed system detects whether the person is wearing helmet or not
-and then capture the image of the number plate and generates fines on the
-riders. It is a monitoring system for motorcycle to detect and track
-motorcyclists who break the rules. The proposed system aims to catch the
-traffic rule violators who are not wearing helmets and report the vehicle
-number plate violators and generate fines
+According to transport ministry, in 2016 about 28 two wheeler riders died daily because of not wearing helmet. In 2017, 31 out of 100 people died in road accidents which shows increased rate from 21.6death per 100 accidents in 2005. Each year there are 1.4 million Traumatic Brain Injuries (TBI’s) in INDIA. About $76.5 billion dollars is spent in treatment related to these injuries. More than 50,000 individuals die from TBI. This proposal aims at the security and safety of motorcyclists against road accidents while also providing them with luxurious comfortable two wheeler experience. Once installed this system will provide a completely free of cost solution .An overall software cost is equal to zero as the software is built using free and open source technologies. Hence given that every rider not wearing helmet is prosecuted, there will be an increased awareness in public.
+The developed system detects whether the person is wearing helmet or not and then capture the image of the number plate and generates fines on the riders. It is a monitoring system for motorcycle to detect and track motorcyclists who break the rules. The proposed system aims to catch the traffic rule violators who are not wearing helmets and report the vehicle number plate violators and generate fines

@@ -1,19 +1,5 @@
 
-49.	SOURABH SUBHOD
-CRIME PREDICTION USING ATTENTIVE HIERARCHICAL RECURRENT NETWORKS
-Abstract
-As urban crimes (e.g., burglary and robbery) negatively impact our everyday
-life and must be addressed in a timely manner, predicting crime occurrences
-is of great importance for public safety and urban sustainability. However,
-existing methods do not fully explore dynamic crime patterns as factors un-
-derlying crimes may change over time. Here, a deep neural network architec-
-ture that uncovers dynamic crime patterns and carefully explores the evolving
-inter-dependencies between crimes and other ubiquitous data in urban space is
-used. Furthermore, this framework is capable of automatically capturing the
-relevance of crime occurrences across different time periods. In particular, the
-framework enables predicting crime occurrences of different categories in each
-region of a city by i) jointly embedding all spatial, temporal, and categorical
-signals into hidden representation vectors, and ii) capturing crime dynamics
-with an attentive hierarchical recurrent network. Extensive experiments on
-real-world datasets demonstrate the superiority of the framework over many
-competitive baselines across various settings
+SOURABH SUBHOD
+
+Abstract:
+As urban crimes (e.g., burglary and robbery) negatively impact our everydaylife and must be addressed in a timely manner, predicting crime occurrencesis of great importance for public safety and urban sustainability. However,existing methods do not fully explore dynamic crime patterns as factors un-derlying crimes may change over time. Here, a deep neural network architec-ture that uncovers dynamic crime patterns and carefully explores the evolvinginter-dependencies between crimes and other ubiquitous data in urban space isused. Furthermore, this framework is capable of automatically capturing therelevance of crime occurrences across different time periods. In particular, theframework enables predicting crime occurrences of different categories in eachregion of a city by i) jointly embedding all spatial, temporal, and categoricalsignals into hidden representation vectors, and ii) capturing crime dynamicswith an attentive hierarchical recurrent network. Extensive experiments onreal-world datasets demonstrate the superiority of the framework over manycompetitive baselines across various settings

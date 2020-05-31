@@ -1,21 +1,5 @@
-3.	AFSAL NOOR E V
-Cloud based Privacy-Preserving Road Condition
-Monitoring in VANETs with Source Authentication.
-Abstract  Abstract
-The VANET(vehicular ad-hoc network) and cloud computing technologies
-allows entities inVANET to enjoy the advantageous storage and computing services
-offered by some cloud service provider.In this article, we investigate the cloud-based
-road condition monitoring (RCoM) scenario, where the authority needs to monitor
-real-time road conditions with the help of a cloud server so that it could make sound
-responses to emergency cases timely. When some bad road condition is detected, e.g.,
-some geologic hazard or accident happens, vehicles on site are able to report such
-information to a cloud server engaged by the authority. We focus on addressing three
-key issues in RCoM. First, the vehicles have to be authorized by some roadside unit
-before generating a road condition report in the domain and uploading it to the cloud
-server. Second, to guarantee the privacy against the cloud server, the road condition
-information should be reported in ciphertext format, whichrequires that the cloud
-server should be able to distinguish the reported data from different vehicles in
-ciphertext format for the same place without compromising their confidentiality.Third,
-the cloud server and authority should be able to validate the report source, i.e., to
-check whether the road conditions are reported by legitimate vehicles
+AFSAL NOOR E V
+
+Abstract:
+The VANET(vehicular ad-hoc network) and cloud computing technologiesallows entities inVANET to enjoy the advantageous storage and computing servicesoffered by some cloud service provider.In this article, we investigate the cloud-basedroad condition monitoring (RCoM) scenario, where the authority needs to monitorreal-time road conditions with the help of a cloud server so that it could make soundresponses to emergency cases timely. When some bad road condition is detected, e.g.,some geologic hazard or accident happens, vehicles on site are able to report suchinformation to a cloud server engaged by the authority. We focus on addressing threekey issues in RCoM. First, the vehicles have to be authorized by some roadside unitbefore generating a road condition report in the domain and uploading it to the cloudserver. Second, to guarantee the privacy against the cloud server, the road conditioninformation should be reported in ciphertext format, whichrequires that the cloudserver should be able to distinguish the reported data from different vehicles inciphertext format for the same place without compromising their confidentiality.Third,the cloud server and authority should be able to validate the report source, i.e., tocheck whether the road conditions are reported by legitimate vehicles
 

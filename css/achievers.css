@@ -81,7 +81,6 @@ html{
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -138,17 +137,8 @@ body{
 	border:solid black 3px;
 }
 /* Slideshow container */
-.slideshow-container2 {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
 
 /* Hide the images by default */
-.mySlides2 {
-  display: none;
-}
-
 /* Next & previous buttons */
 .previous, .nextpage {
   cursor: pointer;
@@ -197,53 +187,34 @@ body{
   to {opacity: 1}
 }
 /* my */
-
-.ach-a, .ach-b, .ach-c {
-  background-color: white;
-  width: 700px;
-  height: 100vh;
+#academic{
+	width:100%;
 }
-.sem{
-  padding: 25px;
-  font-size:1.1vw;
-  width: 10%;
-  float:left;
-  background-color: coral;
-  padding-left: 30px;
-  height: 100vh;
+#semester{
+	padding:5px;
+	font-size: 2.2vw;
+	background-color: rgba(255,255,255,0.1);
 }
-.imageb{
-  float: right;
-  width: 90%;
-  padding-right: 40px;
-  padding-top: 10px;
-  background-color: #d0d0d0;
-  padding-left: 10px;
-  height:100vh;
+.winners{
+	display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.imageb p{
-	margin-top: 0;
+figure{
+	width:20%;
 }
-.imageb img{
-  height: 30vh;
-  width: 15vw;
-  border-radius: 50%;
-  border: solid coral 2px;
+figure img{
+	width:100%;
+	margin-bottom: 1%;
 }
-.image1,.image2,.image3{
-	padding: 50px;
+figcaption{
+	width:90%;
+	font-size: 1.5vw;
+	text-align: center;
+	color:white;
 }
-.sem h1{
-  font-family: 'Montserrat', sans-serif;
-}
-.img1,.img2,.img3,.img4,.img5,.img6{
-	float: left;
-	width: 30%;
-	margin-top: 2%;
-	margin-left: 3%;
-  text-align: center;
-}
-
 @media only screen and (max-width:600px){
 	#ach_menu{
 		margin-top:25%;
@@ -270,5 +241,14 @@ body{
 	.boximg{
 		height:180px;
 		width:100%;
+	}
+	figure{
+		width:27%;
+	}
+	#semester{
+		font-size:20px;
+	}
+	figcaption{
+		font-size: 15px;
 	}
 }

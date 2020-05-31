@@ -19,14 +19,14 @@ text-align: center;
 
 .block{
   display: flex;
-  width: 70%;
+  width: 85%;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
 
 }
 figure{
-  width: 33%;
+  width: 25%;
   margin: 0;
   border: 0 solid #777;
   padding: 20px;
@@ -46,7 +46,7 @@ figure figcaption{
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 .pos{
 	font-weight: 100;
@@ -64,7 +64,7 @@ figure figcaption{
 		font-size: 15px;
 	}
 	.header{
-		margin-top: 22%;
+		margin-top: 12%;
 		font-size: 15px;
 	}
 	body{

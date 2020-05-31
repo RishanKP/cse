@@ -1,13 +1,5 @@
 
-25.	HAMDHA SHERIEF
-IOT structured Long-term Wearable Social Sensing for Mental Wellbeing
-Abstract
-Long-term wellbeing monitoring is an underlying theme for evaluating health status
-by collecting physiological signs through behavioral traits. In alignment with internet of
-things (IoT), non-intrusive and trustworthy wearable social sensing technology holds a
-potential way for researchers to find and establish the interrelationships between
-unobtrusive social cues and physical mental health (PMH). This paper implements an IoT
-structured wearable social sensing platform with the integration of privacy audio feature,
-behavior monitoring and environment sensing in a naturalistic environment. Particularly,
-four privacy protected audio-wellbeing features are embedded into the platform to
-automatically evaluate speech information without preserving raw audio data.
+HAMDHA SHERIEF
+
+Abstract:
+Long-term wellbeing monitoring is an underlying theme for evaluating health statusby collecting physiological signs through behavioral traits. In alignment with internet ofthings (IoT), non-intrusive and trustworthy wearable social sensing technology holds apotential way for researchers to find and establish the interrelationships betweenunobtrusive social cues and physical mental health (PMH). This paper implements an IoTstructured wearable social sensing platform with the integration of privacy audio feature,behavior monitoring and environment sensing in a naturalistic environment. Particularly,four privacy protected audio-wellbeing features are embedded into the platform toautomatically evaluate speech information without preserving raw audio data.

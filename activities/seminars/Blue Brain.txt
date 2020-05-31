@@ -1,20 +1,5 @@
 
-39.	NANDANA S NARAYAN
-Blue Brain
+NANDANA S NARAYAN
+
 Abstract:
-Blue brain is a supercomputer programmed such that it can function as an artificial brain,
-which can also be called a virtual brain. IBM is developing this virtual brain which would
-be the world’s first such created machine. Its main aim is to create a machine in which
-the information of the actual brain can be uploaded. This would ensure that a person’s
-knowledge, personality, memories, and intelligence are preserved and safe. The Blue
-Brain project utilizes the technologies of reverse engineering and artificial intelligence at
-its core and is implemented through the use of supercomputers and nanobots. The Blue
-Brain project is centered towards finding viable solutions to brain-disorders, a working
-model close to the actual brain which would help in greater understanding of the human
-brain and the human mind and the state of consciousness, a step towards building an
-independently thinking machine, and finally collecting information of hundreds of years
-from the human brains and storing it in the form of a databases. The Blue Brain project
-mimics the human brain by acquiring the data from its surrounding through special
-software, interpreting through neural electrophysiology and morphology, and simulating
-them on computers. Thus, The Blue Brain project is a powerful tool for the study and
-analysis of the human brain and for the advancement of the human brain and society.
+Blue brain is a supercomputer programmed such that it can function as an artificial brain,which can also be called a virtual brain. IBM is developing this virtual brain which wouldbe the world’s first such created machine. Its main aim is to create a machine in whichthe information of the actual brain can be uploaded. This would ensure that a person’sknowledge, personality, memories, and intelligence are preserved and safe. The BlueBrain project utilizes the technologies of reverse engineering and artificial intelligence atits core and is implemented through the use of supercomputers and nanobots. The BlueBrain project is centered towards finding viable solutions to brain-disorders, a workingmodel close to the actual brain which would help in greater understanding of the humanbrain and the human mind and the state of consciousness, a step towards building anindependently thinking machine, and finally collecting information of hundreds of yearsfrom the human brains and storing it in the form of a databases. The Blue Brain projectmimics the human brain by acquiring the data from its surrounding through specialsoftware, interpreting through neural electrophysiology and morphology, and simulatingthem on computers. Thus, The Blue Brain project is a powerful tool for the study andanalysis of the human brain and for the advancement of the human brain and society.

@@ -1,36 +1,6 @@
 
-26.	HARIKRISHNAN K
-A ROBUST AND EFFICIENT
-VIDEO ANTI-SHAKING
-ALGORITHM FOR LOW-END
-SMARTPHONE PLATFORMS
-Abstract
-Smartphone camera is a very powerful sensor for many intelligent applica-
-tions. But it is difficult to obtain a stable video quality in an unstable motion
-environment. In this case, robust and fast video stabilization algorithm is
-necessary for some intelligent applications on smartphone. A novel rapid and
-efficient video stabilization algorithm is proposed in this paper. The proposed
-algorithm not only obtains good visual effect, but can also be implemented
-in real-time on mobile platforms with limited computational resource. Our
-algorithm can process about 2.9ms per frame with QVGA video format on
-the mobile platform. The experimental results show the proposed method has
-similar video stabilization effect with the Optical Image Stabilization (OIS)
-hardware. The proposed algorithm can support many camera applications for
-smartphone.
-Feature phones or low-end smart phones are an important part of our daily
-life. While lacking the powerful embedded camera and processing capabil-
-ity of the high-end smart phone, the feature phones with the low-end camera
-and processing capability are still widely used owing to its lower cost. Conse-
-quently, image and video processing algorithms are needed for many intelligent
-applications on the low-end smart phones. In this article, we propose a novel
-robust and efficient video anti-shaking algorithm for the low-end smartphone
-platform. It provides an integrated application for the low-end smartphone
-platform, which includes a novel global motion estimation method, and a
-rapid and efficient local motion detection method. The overall framework
-is proposed considering the limited camera perception quality and limited mo-
-bile processing capability of the feature phone. The proposed algorithm can
-not only obtain a good visual effect, but also be implemented in real-time
-for the low-end mobile platforms with very limited computational resource.
-Experimental results demonstrate that the proposed method can achieve a
-similar video stabilization effect to the Optical Image Stabilization hardware
-in high-end smartphones.
+HARIKRISHNAN K
+
+Abstract:
+Smartphone camera is a very powerful sensor for many intelligent applica-tions. But it is difficult to obtain a stable video quality in an unstable motion environment. In this case, robust and fast video stabilization algorithm is necessary for some intelligent applications on smartphone. A novel rapid and efficient video stabilization algorithm is proposed in this paper. The proposed algorithm not only obtains good visual effect, but can also be implemented in real-time on mobile platforms with limited computational resource. Our algorithm can process about 2.9ms per frame with QVGA video format on the mobile platform. The experimental results show the proposed method has similar video stabilization effect with the Optical Image Stabilization (OIS) hardware.The proposed algorithm can support many camera applications for smartphone.
+Feature phones or low-end smart phones are an important part of our daily life. While lacking the powerful embedded camera and processing capability of the high-end smart phone, the feature phones with the low-end camera and processing capability are still widely used owing to its lower cost. Conse- quently, image and video processing algorithms are needed for many intelligent applications on the low-end smart phones. In this article, we propose a novel robust and efficient video anti-shaking algorithm for the low-end smartphone platform. It provides an integrated application for the low-end smartphone platform, which includes a novel global motion estimation method, and a rapid and efficient local motion detection method. The overall framework is proposed considering the limited camera perception quality and limited mo- bile processing capability of the feature phone. The proposed algorithm can not only obtain a good visual effect, but also be implemented in real-time for the low-end mobile platforms with very limited computational resource. Experimental results demonstrate that the proposed method can achieve a similar video stabilization effect to the Optical Image Stabilization hardware in high-end smartphones.
