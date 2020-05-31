@@ -6,47 +6,40 @@ html{
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-#maindisplay{
-   padding:30px;
-   margin-left:0%;
+.list-container{
+	width:95%;
+	background-color: white;
+	padding:15px;
+	margin:1%;
+	color:rgb(53,172,238);
+	cursor:pointer;
 }
-#pro-card{
-   float:left;
-   padding:30px;
+#link{
+	color:blue;
+	text-decoration: underline;
 }
-#thumbnail{
-  background-size:cover;
-  width:330px;
-  height:200px;
+#details{
+	white-space: pre-wrap;
+	color:black;
+	line-height: 25px;
 }
-#bar{
- background-color:rgb(204,204,204);
- width:330px;
- height:40px;
-}
-#sname{
- width:270px;
- float:left;
- padding:10px;
-}
-
 .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 10px;
   font-size: 16px;
   border: none;
-	float:right;
 }
 .dropdown {
-	margin-top: 6%;
-	width:94%;
+	margin-left: 1%;
+	margin-top: 10%;
+	width:98%;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-	right:4px;
+	left:18px;
   background-color: #f1f1f1;
   min-width: 160px;
 	float:right;
@@ -69,10 +62,9 @@ html{
 
 @media only screen and (max-width:600px){
 	.dropdown{
-		margin-top: 20%;
+		margin-top: 18%;
 	}
-	#maindisplay{
-		padding: 0;
-		margin-left:-6%;
+	.list-container{
+		width:93%;
 	}
 }

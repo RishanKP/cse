@@ -1,0 +1,21 @@
+
+57.	AMARNATH M K
+DESIGN AND CONSTRUCTION OF ELECTRONIC AID FOR
+VISUALLY IMPAIRED PEOPLE
+Abstract
+With the scope of electronics increasing day by day, the need for utilizing these
+advanced technologies to make human lives simpler is becoming more and more
+necessary. The demand for using these technologies to make lives easier for
+disabled people is also growing. This has encouraged many new areas of research
+and one of the areas is electronic mobility aid for blind. There are a few smart
+systems available in the market which uses electronic sensors mounted on the cane
+but those systems also have certain disadvantages. The Nav Guide is a novel
+electronic device to aid outwardly debilitated individuals with obstacle in freeway
+finding. The importance of the Nav Guide system is that it provides easy
+information on the surrounding environment and deduces priority information
+without causing information overload. The priority information is provided to the
+user via vibration and audio feedback mechanisms. The proof-of-concept device
+comprises of an Arduino with ultrasonic sensors, vibration motors, and a battery.
+The assessment results display that NavGuide is a valuable guide in the location of
+impediments, wet floors and ascending staircases. The proposed system guides the
+blind to detect fire and current passing and it also gives the line following guidance.

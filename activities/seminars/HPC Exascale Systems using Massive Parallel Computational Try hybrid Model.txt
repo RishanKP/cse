@@ -1,0 +1,21 @@
+.
+
+50.	SREESHMA B NAIR
+HPC Exascale Systems using Massive Parallel
+Computational Tri hybrid Model
+Abstract
+The emerging high-performance computing Exascale supercomputing system, which is
+anticipated to be available in 2020, will unravel many scientific mysteries. A new tri-hybrid MOC
+(MPI + OpenMP + CUDA) parallel programming model attained massive performance through
+monolithic parallelism in the system. Huge parallelism is one of these challenges, which
+requires a novel low power consuming parallel programming approach for attaining massive
+performance. In order to evaluate MOC model, it is implemented in linear algebraic dense
+matrix multiplication application and observed different metrics such as performance and
+power consumption during different dataset executions. This seminar introduces a new parallel
+programming model that achieves massive parallelism by combining coarse-grained and fine-
+grained parallelism over inter-node and intra node computation, respectively. The proposed
+framework is tri-hybrid of MPI, OpenMP, and compute unified device architecture (CUDA) MOC
+model that compute input data over heterogeneous framework. It was observed that MOC with
+four kernels outperformed against eight and twelve kernels implementations. Further, MOC
+with peak performance was compared with other most prominent implementations including
+KBLAS and CuBLAS.

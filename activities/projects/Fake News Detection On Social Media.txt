@@ -1,0 +1,7 @@
+Team:
+Abhinav Meethele Valappil
+Afsal Noor
+Clement Sunny
+Sanoop C K
+
+In recent years, the reliability of information available through online sources has emerged as a crucial issue of modern society. Social networks play a large role in spreading both reliable as well as non-reliable information. Though social media provide us with fast coverage of news, we are unsure about the integrity of the information. Many are trying to take advantage of this de-merit of social network for spreading false news for personal or other gains. Keeping this objective in mind, we try to develop a system that can meet this challenge. We collect and combine datasets from different sources to create a dataset huge enough to address this issue with better accuracy. This dataset is pre-processed, and features are extracted using various algorithms. Then this pre-processed data is used for training and testing of various machine learning models. Training is done using machine learning algorithms. The best classification model is found out and implemented in our model. Thus, we try to address this current issue by providing reliability to the news with better accuracy.

@@ -1,0 +1,22 @@
+
+48.	SHARVINA V S
+Deep Data Stream Analysis Model and
+Algorithm With Memory Mechanism
+ABSTRACT:
+Integrated analysis is an important method for data analysis. Aimed at improving the
+deficiencies of traditional integrated data stream analysis, a human-like remembering and
+forgetting mechanism is introduced into data stream analysis, and a deep data stream
+analysis model based on remembering (DSAR) is proposed. Through this remembering
+and forgetting mechanism, the model regards basic classifiers as system-obtained
+knowledge and not only stores useful basic classifiers in a ``remembering library'' to
+improve prediction stability but also selects good basic classifiers to participate in
+integrated prediction, thus improving its ability to accommodate conceptual variations.
+Based on the DSAR model, an integrated deep data stream analysis (DDSA) algorithm is
+proposed. The algorithm uses the forgetting curve and a selective ensemble classifier to
+simulate human thinking. Compared with four typical data stream analysis algorithms,
+the DDSA algorithm has a high classification accuracy and a strong capacity for
+accommodating concept drift features (CDFs) within data stream analysis. Classification
+is an important application in the field of data analysis. The classical problems mainly
+adopt static batch processing that is, all the training data is submitted to the learning
+system. However, as application fields acquire ever increasing amounts of data, the
+ability of learning systems to learn dynamically is also becoming increasingly important

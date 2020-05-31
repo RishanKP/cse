@@ -18,55 +18,78 @@
 </script>
 
 	<title>CSE ASSOCIATION</title>
-</head>
-<body>
+  <script>
+    function drop(file,type){
+      var hide= document.getElementsByClassName("expanded");
+      if(hide){
+        for(var i=0;i<hide.length;i++){
+        hide[i].style.display="none";
+        hide[i].style.cursor="pointer";
+      }
+      }
+      var rawFile = new XMLHttpRequest();
+      var filename=file+'.txt';
+      var pdfname=filename.replace(".txt",".pdf")
+    rawFile.open("GET", "/activities/"+type+"/"+filename, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                document.getElementById("list-"+file).innerHTML += "<div class='expanded'><p id='details'>"+allText+"</p><a id='link' target='_blank' href='activities/pdfs/"+pdfname+"'>Know More</a></div>"
+                document.getElementById("list-"+file).scrollIntoView();
+            }
+        }
+    }
+    rawFile.send(null);
+  }
+  </script>
+  </head>
+  <body>
 
-	<div class="constant" id="constant">
-			<header class="left" id="main">
-				<a href="/"><H1>CSE ASSOCIATION</H1></a>
-			</header>
-		<div class="top right">
-			<img id="menuicon" style="display:none;" class="hide hideimg" src="images/menu.png"/>
-	        <img id="menuicon2" style="display:none;" src="images/close.png"/>
-    	</div>
+  <div class="constant" id="constant">
+      <header class="left" id="main">
+        <a href="/"><H1>CSE ASSOCIATION</H1></a>
+      </header>
+    <div class="top right">
+      <img id="menuicon" style="display:none;" class="hide hideimg" src="images/menu.png"/>
+          <img id="menuicon2" style="display:none;" src="images/close.png"/>
+      </div>
 
-		<nav class="show" id="navbar">
-				<ul>
-					<li><a href="/events">EVENTS</a></li>
-					<li><a href="/achievers">ACHIEVERS</a></li>
-					<li><a href="#">PROJECTS</a></li>
-					<li><a href="/team">TEAM</a></li>
-					<li><a href="/blog">BLOG</a></li>
-					<li><a href="/#contact">CONTACT US</a></li>
-				</ul>
-		</nav>
-		<div id="menu" style="display:none;">
-	        <a href="/events"><div id="options">EVENTS</div></a>
-	        <a href="/achievers"><div id="options">ACHIEVERS</div></a>
-	        <a href="#"><div id="options">PROJECTS</div></a>
-	        <a href="/team"><div id="options">TEAM</div></a>
-        	<a href="/blog"><div id="options">BLOG</div></a>
-        	<a href="/#contact"><div id="options">CONTACT US</div></a>
-    	</div>
-	</div>
-	<div class="dropdown">
-  <button class="dropbtn">{{.Atype}}</button>
+    <nav class="show" id="navbar">
+        <ul>
+          <li><a href="/events">EVENTS</a></li>
+          <li><a href="/achievers">ACHIEVERS</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="/team">TEAM</a></li>
+          <li><a href="/blog">BLOG</a></li>
+          <li><a href="/#contact">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div id="menu" style="display:none;">
+          <a href="/events"><div id="options">EVENTS</div></a>
+          <a href="/achievers"><div id="options">ACHIEVERS</div></a>
+          <a href="#"><div id="options">PROJECTS</div></a>
+          <a href="/team"><div id="options">TEAM</div></a>
+          <a href="/blog"><div id="options">BLOG</div></a>
+          <a href="/#contact"><div id="options">CONTACT US</div></a>
+      </div>
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn">Projects & Seminars</button>
   <div class="dropdown-content">
     <a href="/seminar">Seminars</a>
     <a href="/project">Projects</a>
   </div>
-</div>
-	<div id="maindisplay">
-	{{range .Activities}}
-	<div id="pro-card">
-		<a href="activities/{{.AType}}/{{.FileName}}" target="_blank"><div id="thumbnail" style="background-image:url('/images/{{.AType}}/{{.FileImg}}');">
-		</div></a>
-		<div id="bar">
-			<div id="sname">{{.StudentName}}</div>
-			<a href="activities/{{.AType}}/{{.FileName}}" download="{{.FileName}}"><img src="images/dwnld.png"style="float:right;padding:3px;" width=30px/></a>
-		</div>
-	</div>
-	{{end}}
-	</div>
-</body>
-</html>
+  </div>
+  <div id="maindisplay">
+  {{range .Activities}}
+    <div class="list-container" id="list-{{.Name}}" onclick="drop({{.Name}},{{.AType}})">
+      {{.Name}}
+    </div>
+  {{end}}
+  </div>
+  </body>
+  </html>

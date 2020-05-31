@@ -1,0 +1,17 @@
+4.	ALIDA ANNA WILSON
+Subpixel-Shifted Images Super-Resolution Reconstruction using Registration by SFME
+Abstract:
+The subpixel-shifted (SPS) images acquisition method based on imaging
+system has the limitations of complex structure, difficult production and high cost.
+Therefore,an image super-resolution reconstruction method based on registration is
+proposed. In the first phase, the registration algorithm is used to select the SPS
+images. In order to improve the accuracy of the registration algorithm, a registration
+algorithm combining SIFT-FLANN and misregistration points elimination (SFME)
+is proposed. In the second phase, an interpolation of nonuniformly spaced samples
+based on pixel gray correction is proposed to get the high resolution (HR) image.
+Experiments show that the images selection method can obtain higher-precision SPS
+images, and the reconstruction method can reconstruct HR image with better visual
+and higher spatial resolution. Finally, the image magnification factor and the number
+of SPS images used in the reconstruction process are analyzed to describe the
+practical application value of the methods proposed.
+

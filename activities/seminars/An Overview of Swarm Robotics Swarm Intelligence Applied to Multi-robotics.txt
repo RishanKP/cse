@@ -1,0 +1,22 @@
+10.	ANISHA T P
+An Overview of Swarm Robotics:
+Swarm Intelligence Applied to
+
+Multi-robotics
+
+Abstract
+
+Technology seems to be developing at a bewildering rate across the board these days.
+New smartphones appear all the time, more sophisticated apps emerge routinely, and
+computers continue to evolve. But aside from the innovations are used to seeing daily, the
+field of robotics is advancing at a similar rate: Robotics is a domain in artificial intelligence
+that deals with the study of creating intelligent and efficient robots. Robots are aimed at
+manipulating the objects by perceiving, picking, moving, modifying the physical properties of
+object, destroying it, or to have an effect thereby freeing manpower from doing repetitive
+functions without getting bored, distracted, or exhausted. As an emergent research area by
+which swarm intelligence is applied to multi- robot systems; swarm robotics (a very
+particular and peculiar sub-area of collective robotics) studies how to coordinate large
+groups of relatively simple robots through the use of local rules. Swarm robotics focuses on
+studying the design of large amount of relatively simple robots, their physical bodies and
+their controlling behaviors. Since its introduction in 2000, several successful
+experimentations had been realized, and till now more projects are under investigations.

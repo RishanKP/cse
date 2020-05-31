@@ -1,0 +1,9 @@
+Team:
+Haripriya B
+Kavya Ramachandran
+Khadeeja Shagufta
+Roshni Arunkumar
+
+Guide: Dileep M R
+
+Currently more than 75% of the world access social media. The use of social media will be very effective to identify suicide and prevention strategies. The successful application of social media in public health includes areas of surveillance, study recruitment, user engagement and intervention delivery. Moreover, 85% of users with mental illness express interest in social media delivered mental health programs. So, developing a model based on social media data will be efficient and effective. There could be many advantages of incorporating deep learning into suicide care. This can include a time- effective and resource-effective alternative to clinician-based strategies. This is adaptable in various demographics, and suitable for use in remote locations where there is only limited access to mental and healthcare supports. The project is based on analysing the twitter dataset and detecting the suicidal tendencies in the tweet. Deep learning based on LSTM is used to classify the tweets.

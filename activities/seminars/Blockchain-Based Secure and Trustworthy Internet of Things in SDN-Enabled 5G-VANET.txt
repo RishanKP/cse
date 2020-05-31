@@ -1,0 +1,26 @@
+6.	AMAL VB
+Blockchain-Based Secure and Trustworthy Internet of Things in SDN-Enabled 5G-VANET
+T he modern intelligent transportation system brings not only new opportuni-
+ties for vehicular Internet of Things (IoT ) services but also new challenges for
+vehicular ad-hoc networks (VANETs) . Apart from enhanced network perfor-
+mance, a practical and reliable security scheme is needed to handle t he trust
+management while preserving user privacy at the same time. The emerging
+5G mobile communication system is viewed as a prominent technology for
+ultra-reliable, low-latency wireless communication services. Fur t hermore, in-
+corporating software-defined network (SON) architecture into the 5G-VANET
+enables global information gathering and network control. Hence, real-time
+IoT services on transportation monitoring and reporting can be well sup-
+ported. Both pave the way for an innovative vehicular security scheme. There
+are several security and privacy issue in the transportation system and the
+vehicular IoT environment in SDN-enabled 5G-VANET. Due to t he decen-
+tralized and immutable characteristics of blockchain, a blockchain-based se-
+curity framework is designed to support the vehicular IoT services, i.e. , real-
+time cloud-based video report and trust management on vehicular messages.
+So a SDN-enabled 5G-VANET model and the scheduling procedures of the
+blockchain-based framework can tackle t he issues in t he trans portation system.
+The numerical simulation results also s how that malicious vehkular nodes or
+messages can be weU detected while the overhead and impact on the network
+performance are acceptable for large-scale scenarios. Through case studies and
+theoretical analysis, this design guarantees a secure and trustwort hy vehicular
+IoT environment with user privacy preserved.
+Keywords: Blockchain, 5G-VANET, IoT , security and privacy, SDN , trust 

@@ -1,0 +1,7 @@
+Team:
+Arathi M
+Bincy K
+Hamdha Sherief
+Surabhi C
+
+Image captioning is an emerging technology in the field of computer vision and machine learning. It has been an important topic, as it involves understanding images and language modeling. Image captioning is the technique of describing the image by extracting its salient features. Speech synthesis refers to the ability of computers to read text aloud. We employ image caption generation using deep learning along with speech synthesis (text to speech conversion) to develop a software to help the visually challenged in everyday activities like shopping. Blind people can use this software to capture the image of an item and have it described to them. Thus, ridding them the need of another person’s assistance.

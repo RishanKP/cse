@@ -1,0 +1,15 @@
+
+61.	MUHSIN K V
+AES ENCRYPTION IN USB FLASH DRIVES
+Abstract:
+A USB flash drive is a data storage device that consists of flash memory with an integrated Universal
+Serial Bus (USB) interface. A Cloud Storage is also a similar case where in the data is stored remotely
+and is accessed whenever needed. There are many more drawbacks like limited storage, no security,
+back up, temp files, no remote disable etc. This flash drives are 'limitless' secure USB device that
+enables users to access, edit & share all their files & media between any two online computers
+anywhere in the world. The only limit is the size of your computer’s hard drive. This usb is an
+innovative solution that allows remote file access without the security and privacy risks of the cloud
+and USB flash drives. It’s very easy to access as a USB device and no special installation is required.
+This uses thoroughly analyzed crypto protocols and algorithms(AES 256 bit encryption). It has
+features like bi-directional file access, no temp files, remote disable, smart key generation, and
+password support and trust authentication

@@ -1,0 +1,16 @@
+
+23.	DHYAN S BABU
+Automatic Parking Systems Based on Parking Scene Recognition
+Abstract:
+Automatic parking technology can complete parking operations safely and
+quickly without a driver and can improve driving comfort, while greatly reducing
+the probability of parking accidents. Existing systems are less intelligent, low degree
+of automation, and scope is limited to traditional fuel vehicles. To increase the
+utilization of parking spaces and parking convenience, machine vision and pattern
+recognition techniques are introduced to intelligently recognize a vertical parking
+scenario, plan a reasonable parking path, develop a path tracking control strategy to
+improve the vehicle control automation, and explore a highly intelligent automatic
+parking technology roadmap. This paper discusses how Visual Sensors can be
+applied to auto-parking system and the key aspects of system solutions for an
+automatic parking system based on parking scene recognition, parking path
+planning, and path tracking and control.

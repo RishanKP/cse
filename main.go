@@ -19,14 +19,11 @@ type Blog struct{
   Content string
 }
 type activity struct{
-  FileName string
-  StudentName string
-  FileImg string
+  Name string
   AType string
 }
 type list struct{
   Activities []*activity
-  Atype string
 }
 func getpdf(test string) []*activity{
   files,err := ioutil.ReadDir("activities/"+test)
@@ -36,10 +33,8 @@ func getpdf(test string) []*activity{
   var data []*activity
   for _, file := range files {
     var element activity
-    element.AType= test
-    element.FileName = file.Name()
-    element.StudentName= strings.Replace(file.Name(),".pdf","",-1)
-    element.FileImg= strings.Replace(file.Name(),".pdf",".jpg",-1)
+    element.AType=test
+    element.Name= strings.Replace(file.Name(),".txt","",-1)
     data = append(data,&element)
   }
   return data
@@ -148,7 +143,6 @@ func project(w http.ResponseWriter, r *http.Request){
     fmt.Fprintf(w,"error")
   }
   var Project list
-  Project.Atype="Projects"
   Project.Activities = getpdf("projects")
   t.Execute(w,Project)
 }
@@ -159,7 +153,6 @@ func seminars(w http.ResponseWriter, r *http.Request){
     fmt.Fprintf(w,"error")
   }
   var Seminar list
-  Seminar.Atype = "Seminars"
   Seminar.Activities = getpdf("seminars")
   t.Execute(w,Seminar)
 }

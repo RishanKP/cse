@@ -1,0 +1,14 @@
+Team:
+Sruthi K (KNR16CS055)
+Varna P V (KNR16CS058)
+Yosha (KNR16CS060)
+Arjun K( WYD16CS014)
+
+Spoken Language Identification is the process of detecting the language of utterance by an anonymous
+speaker, irrespective of gender, accent and pro�nunciations.Implementation of an acoustic model for
+Spoken Language Iden�tification is to be carried out in this project. The major task is to identify those
+features or parameters which could be used to clearly distinguish be�tween languages. The system uses
+Support Vector Machine (SVM) to thehandle the problem of multi class classification. The project aims
+at detecting English and Malayalam. Experiments were conducted by forming a speech samples
+obtained from recorded dataset. The entire dataset is split into two sets, larger unit as the training
+dataset and a smaller set as the test set.

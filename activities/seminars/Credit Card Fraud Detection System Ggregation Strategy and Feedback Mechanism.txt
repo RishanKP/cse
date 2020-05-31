@@ -1,0 +1,23 @@
+
+16.	ASHIKA MAHESH
+CREDIT CARD FRAUD DETECTION SYSTEM USING GGREGATION
+STRATEGY AND FEEDBACK MECHANISM
+Abstract:
+The credit card fraud detection with hidden markov model and anti- k
+nearest neighbor algorithm didn’t solve the problem pf concept drift. Therefore,
+in order to solve the problem of concept drift, fraud detection system using
+aggregation strategy and feedback mechanism was used. There are mainly 4
+stages in the methodology. First is preprocessing data in which raw features are
+taken and classified into 3 similar groups low, medium and high and after that
+each transaction behavior are aggregated using a sliding window. From that four
+amount-related features and time-related features are extracted and labelled as
+normal or abnormal by using label function. After the preprocessing stage
+Clustering behavioral patterns comes in which we classify all normal features of a
+group. After that Classifying behavioral patterns and assignment comes in which
+we first cluster all the abnormal feature and train a set of classifiers which
+contains behavioral patterns and abnormal features by random forest method.
+After that we update cardholders’ behavioral profile by a feedback mechanism. A
+rating score is updated with each classifier and if the prediction is wrong the
+feedback mechanism is given back in which rating score is decremented. So, if
+there is a sudden change in pattern it is also analyzed by feedback system and
+update the cardholder’s profile.

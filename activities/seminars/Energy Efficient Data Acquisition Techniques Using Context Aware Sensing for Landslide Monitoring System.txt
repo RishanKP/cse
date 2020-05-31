@@ -1,0 +1,29 @@
+
+63.	VISHNU K P
+Energy Efficient Data Acquisition Techniques
+Using Context Aware Sensing For Landslide
+Monitoring System
+Abstract
+Real- Time wireless sensor networks is an emerging technology for continuous
+environmental monitoring. But real world deployments are constrained by
+resources such as power, memory, and processing capabilities. In this paper,
+we discuss a set of techniques to maximize the lifetime of a system deployed
+in south India for detecting rain-fall induced landslides. In this system, the
+sensing subsystem consumes 77.5%, the communication subsystem consumes
+22%, and the processing subsystem consumes 0.45% of total power
+consumption. Hence, to maximize the lifetime of the system, the sensing
+subsystem power consumption has to be reduced. The major challenge to
+address is the development of techniques that reduce the power consumption
+while preserving the reliability of data collection and decision support by the
+system. This research work proposes a wavelet based sampling algorithm for
+choosing the minimum sampling rate for ensuring the data reliability. The
+results from the wavelet sampling algorithm along with the domain knowledge
+have been used to develop context aware data collection models that enhance
+the lifetime of the system. Two such models named Context Aware Data
+Management (CAD) and Context Aware Energy Management (CAE) have
+been devised. The results show that the CAD model extends the lifetime by six
+times and the CAE model does so by 20 times when compared to the
+Continuous Data Collection (CDC) model, which is the existing approach. In
+this work, we also developed mathematical modeling for CAD and CAE,
+which have been validated using real-time data collected
+

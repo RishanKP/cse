@@ -1,0 +1,22 @@
+
+20.	BINCY K
+REVERSIBLE DATA HIDING IN ENCRYPTED IMAGES BASED ON PROGRESSIVE
+RECOVERY
+ABSTRACT:
+In the modern era of digital communication a transfer of a secret message is a contestable one.
+Several methods have been proposed and investigated in the literature to provide privacy for
+communication. Data hiding technique conceals the secret message into cover image, where the
+image embedded with secret message, WHICH is being transmitted to prevent the other party from
+modifying, intercepting, and tampering, thus protecting the data. This proposes a method of
+reversible data hiding in encrypted images (RDH-EI) based on progressive recovery. The aim of
+this work is to hide & retrieve back the data in encrypted images.
+Three parties are involved in the framework, including the content owner, the data-hider, and the
+recipient. The content owner encrypts the original image using a stream cipher algorithm and
+uploads ciphertext to the server. The data-hider on the server divides the encrypted image into three
+channels and respectively embeds different amount of additional bits into each one to generate a
+marked encrypted image. On the recipient side, additional message can be extracted from the
+marked encrypted image, and the original image can be recovered without any errors. While most
+of the traditional methods use one criterion to recover the whole image, we propose to do the
+recovery by a progressive mechanism. Rate-distortion of the proposed method outperforms state-of-
+the-art RDH-EI methods.
+

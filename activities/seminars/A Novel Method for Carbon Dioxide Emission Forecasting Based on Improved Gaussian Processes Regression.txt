@@ -1,0 +1,16 @@
+
+35.	MEGHA SANTHOSH
+A Novel Method for Carbon Dioxide Emission Forecasting Based on Improved
+Gaussian Processes Regression
+Abstract:
+The fact that global warming will bring impact on immigration, agriculture and also
+generate human conflicts is becoming a focus in climate change topic and the forecasting of
+carbon dioxide emission has been attracting much attention.Here,we proposed an improved
+Gaussian processes regression method for carbon dioxide emission forecasting based on a
+modified PSO algorithm which can efficiently optimize the hyper parameters of covariance
+function in the Gaussian processes regression. Also we tested our improved PSO-GPR method
+with the total carbon dioxide emissions data of U.S., China and Japan in 1980-2012, and
+compared the prediction precision of our method with original GPR and BP Neural Networks by
+the data of U.S., China and Japan. The performance of our improved Gaussian processes
+regression method enhanced the prediction accuracy of original GPR method and is superior to
+other traditional forecasting method like BP Neural Networks.

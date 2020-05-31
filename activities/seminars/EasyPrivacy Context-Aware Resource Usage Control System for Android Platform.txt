@@ -1,0 +1,16 @@
+1.	ABHINAV MEETHELE VALAPPIL    
+EasyPrivacy: Context-Aware Resource Usage Control System for Android Platform
+Abstract - With the rapid development of the Android platform, numerous applications (apps) are
+developed to provide new or enhanced services using resources on mobile devices. On one hand,
+these apps can bring convenience for users in context which has little privacy risk. On the other
+hand, misuse of these resources by apps may result in privacy leakage in context which has strict
+requirements for privacy. Therefore, fine-grained resource usage constraint mechanisms that take
+the context information into account are in demand. This paper presents an enhanced context-
+aware resource usage control system (EasyPrivacy) in Android to provide adaptive resource usage
+control. The main contribution of this paper is -
+1. A Context-aware Resource Usage Control System - EasyPrivacy
+2. Policy Conflict Consideration
+3. Facilitating users to configure policies – TipsTool
+
+
+
