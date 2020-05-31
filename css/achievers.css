@@ -92,7 +92,7 @@ html{
 }
 /* my */
 .ach1, .ach2, .ach3{
-  background-color: white;
+  background-color:rgba(255,255,255,0.1);
   width: 98%;
   height: 750px;
   padding-top: 50px;
@@ -103,14 +103,12 @@ body{
 
 }
 .para{
+	color:white;
   padding: 25px;
   font-size:1.4vw;
   width: 50%;
   float:left;
   padding-left: 45px;
-}
-.para p,.para2 p{
-	color:black;
 }
 .image{
   float: right;
@@ -124,7 +122,7 @@ body{
   border:solid black 3px;
 }
 .ach_head{
-  color:black;
+  color:white;
   padding-left: 55px;
   font-size: 3vw;
   margin: 0;
