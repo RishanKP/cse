@@ -37,7 +37,7 @@ figure{
 figure img{
   width: 80%;
   border-radius: 50%;
-  border: 3px solid  #FF7F50;
+  border: 3px solid rgba(255,255,255,0.2);
 }
 figure figcaption{
 	width: 90%;
@@ -66,14 +66,5 @@ figure figcaption{
 	.header{
 		margin-top: 12%;
 		font-size: 15px;
-	}
-	body{
-		background-color: white;
-	}
-	figure{
-		background-color: white;
-	}
-	figure figcaption{
-		color:black;
 	}
 }

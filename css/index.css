@@ -10,52 +10,6 @@ a{
 	text-decoration: none;
 	color: white;
 }
-/*#constant{
-  height: auto;
-  width: 100%;
-  background-color: black;
-  margin: 0;
-  position: fixed;
-  top:0;
-  left:0;
-	z-index: 3;
-}
-#navbar ul{
-	padding: 0;
-	list-style:none;
-}
-#navbar li{
-	display: inline;
-	padding: 2%;
-}
-#navbar a{
-	text-decoration:none;
-	font-size: 100%;
-	color:white;
-}
-.button a{
-  text-decoration: none;
-  color:white;
-}
-h1{
-	color: white;
-  font-family: 'Montserrat', sans-serif;
-}
-p{
-  color: white;
-}
-#main{
-  width:35%;
-  float: left;
-  padding-left:10px;
-}
-#navbar{
-  width:55%;
-  float:right;
-  padding-top:15px;
-  padding-right: 10px;
-}*/
-
 #image{
 	padding: 0px;
   padding-top: 80px;
@@ -252,7 +206,7 @@ figure figcaption{
   border-radius: 50%;
   height:36vh;
   width:18vw;
-  border: solid coral 3px;
+  border: solid rgba(255,255,255,0.2) 3px;
 }
 
 h3,h4{
@@ -522,7 +476,6 @@ h4{
 	  border-radius: 50%;
 	  height:140px;
 	  width:140px;
-	  border: solid coral 3px;
 	}
 	.team h1{
 		font-size: 35px;
