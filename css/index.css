@@ -12,7 +12,7 @@ a{
 }
 #image{
 	padding: 0px;
-  padding-top: 80px;
+  padding-top: 100px;
   width: 90%;
   height: 70vh;
 }
@@ -346,6 +346,7 @@ h4{
 }
 @media only screen and (max-width:600px) {
   #image{
+		margin-top: 6%;
     width:90%;
 		height: 200px;
   }
@@ -361,7 +362,7 @@ h4{
   }
   .centered{
     font-size: 15px;
-    top: 28%;
+    top: 30%;
   }
   #vision img{
     width: 80%;
