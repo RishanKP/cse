@@ -49,10 +49,12 @@
         	<a href="/#contact"><div id="options">CONTACT US</div></a>
     	</div>
 	</div>
-
-  <div id="ach_menu" style="cursor:pointer">
-    <div class="ach_menu" onClick="toggle()">ACADEMIC ACHIEVERS</div>
-    <div class="ach_menu" onClick="toggle()">OUT OF THE BOX</div>
+  <div class="dropdown">
+  <button class="dropbtn">Academic Achievements</button>
+  <div class="dropdown-content">
+    <p onClick="toggle()">Academic<p>
+    <p onClick="toggle()">Out Of The Box</p>
+  </div>
   </div>
   <!-- Slideshow container -->
   <div class="slideshow-container" style="display:block;">
@@ -135,7 +137,7 @@
             <figcaption>SGPA 8.84</figcaption>
           </figure>
         </div>
-        <p id="semester">GATE Qualified</p>
+        <p id="semester"><b>GATE Qualified</b></p>
         <div class='winners'>
           <figure>
             <img src="images/achievements/academic/liyana.jpg"/>
@@ -311,6 +313,9 @@ function toggle(){
       block[i].style.display="none";
     }
   }
+  var btnval = document.getElementsByClassName('dropbtn')[0];
+  if(btnval.innerHTML=='Academic Achievements') btnval.innerHTML='Out Of The Box';
+  else btnval.innerHTML='Academic Achievements';
 }
 </script>
 </body>

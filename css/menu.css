@@ -37,6 +37,7 @@ p{
   color: white;
 }
 .left{
+  font-size: 1.2vw;
   width:35%;
   float: left;
   padding-left:10px;
@@ -70,7 +71,7 @@ p{
 @media only screen and (max-width:600px) {
   .left{
     width: 88%;
-    font-size: 12px;
+    font-size: 3.1vw;
   }
   #menuicon2,img.hide.hideimg{
     width: 30px;

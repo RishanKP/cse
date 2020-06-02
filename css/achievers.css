@@ -7,18 +7,42 @@ html{
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-#ach_menu{
-  background-color: grey;
-  color:white;
-  margin-top:8%;
-  margin-bottom: 6%;
+.dropbtn {
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+	cursor:pointer;
 }
-.ach_menu{
-  font-size: 15px;
-  border-bottom: 2px solid white;
-  padding: 5px;
-  padding-left: 10px;
+.dropdown {
+	margin-left: 11%;
+	margin-top: 8%;
+	width:98%;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+	left:150px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+	float:right;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+	padding-left: 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content p:hover {background-color: #ddd;cursor:pointer;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgba(255,255,255,0.7);}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -98,8 +122,6 @@ html{
 }
 body{
   background-color: black;
-  margin-top: 50px;
-
 }
 .para{
 	color:white;
@@ -213,8 +235,12 @@ figcaption{
 	color:white;
 }
 @media only screen and (max-width:600px){
-	#ach_menu{
-		margin-top:25%;
+	.dropdown{
+		margin-top: 20%;
+		margin-left:3%;
+	}
+	.dropdown-content{
+		left:22px;
 	}
 	.ach_head{
 		padding-left: 20px;
