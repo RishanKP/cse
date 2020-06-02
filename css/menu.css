@@ -70,7 +70,7 @@ p{
 @media only screen and (max-width:600px) {
   .left{
     width: 88%;
-    font-size: 15px;
+    font-size: 12px;
   }
   #menuicon2,img.hide.hideimg{
     width: 30px;
