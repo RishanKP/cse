@@ -87,10 +87,6 @@ html{
   border-radius: 5%;
   border:2px solid grey;
 }
-body{
-  background-color: black;
-  margin-top: 50px;
-}
 .slideshow-container{
   margin-top: 10%;
 }
@@ -106,7 +102,7 @@ body{
 }
 #blog-content{
   color:black;
-  text-align: justify;
+	text-align: justify;
 }
 .para{
 	white-space: pre-line;
